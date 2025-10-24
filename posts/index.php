@@ -1,9 +1,9 @@
 <?php
 require __DIR__ . '/data/posts_array.php';
 
-function filterPublished($posts, $publishedParam)
+function filterPublished($postsParam, $publishedParam)
 {
-    return array_filter($posts, fn($post) => $post['published'] === $publishedParam);
+    return array_filter($postsParam, fn($post) => $post['published'] === $publishedParam);
 }
 
 $isPublishedArrayPosts = filterPublished($posts, true);
