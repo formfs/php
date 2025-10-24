@@ -32,10 +32,12 @@ function filterByName($books, $name)
 
 
 $zolaBook = filterByAuthor($books, 'Emile Zola');
+// var_dump($zolaBook);
+// die();
+
 $capitalBook = filterByName($books, 'Le capital');
 
 $booksView = $capitalBook;
 
-//var_dump($zolaBook);
 require 'book.view.php';
 // include 'book.view.php';
