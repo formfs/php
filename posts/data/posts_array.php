@@ -1,3 +1,4 @@
+<?php
 $posts = [
     [
         'title' => 'Débuter avec PHP : Les Bases Essentielles',
@@ -25,7 +26,7 @@ $posts = [
             'role' => 'Expert en Cybersécurité'
         ],
         'tags' => ['php', 'sécurité', 'développement web'],
-        'published' => true,
+        'published' => false,
         'comments' => [
             [
                 'user' => 'Emma',
@@ -36,7 +37,7 @@ $posts = [
                 'message' => 'La sécurité est primordiale'
             ]
         ]
-    },
+    ],
     [
         'title' => 'Maîtriser les Frameworks PHP Modernes',
         'author' => [
@@ -63,7 +64,7 @@ $posts = [
             'role' => 'Développeur Backend'
         ],
         'tags' => ['php', 'performance', 'optimisation'],
-        'published' => true,
+        'published' => false,
         'comments' => [
             [
                 'user' => 'Marc',
@@ -94,14 +95,14 @@ $posts = [
             ]
         ]
     ],
-     [
+    [
         'title' => 'Sécurité Avancée des Applications Web',
         'author' => [
             'name' => 'Alexandre Dupré',
             'role' => 'Expert en Cybersécurité'
         ],
         'tags' => ['php', 'sécurité', 'hacking éthique'],
-        'published' => true,
+        'published' => false,
         'comments' => [
             [
                 'user' => 'Mathieu',
@@ -131,7 +132,7 @@ $posts = [
                 'message' => 'Enfin une explication claire des API'
             ]
         ]
-    },
+    ],
     [
         'title' => 'PHP 8 : Nouveautés et Améliorations',
         'author' => [
@@ -139,7 +140,7 @@ $posts = [
             'role' => 'Architecte Logiciel'
         ],
         'tags' => ['php', 'version 8', 'nouveautés'],
-        'published' => true,
+        'published' => false,
         'comments' => [
             [
                 'user' => 'Élodie',
@@ -150,7 +151,7 @@ $posts = [
                 'message' => 'Les améliorations sont vraiment impressionnantes'
             ]
         ]
-    },
+    ],
     [
         'title' => 'Gestion des Erreurs en PHP',
         'author' => [
@@ -169,7 +170,7 @@ $posts = [
                 'message' => 'J\'ai appris beaucoup de choses'
             ]
         ]
-    },
+    ],
     [
         'title' => 'Conception de Sites Dynamiques avec PHP',
         'author' => [
@@ -177,7 +178,7 @@ $posts = [
             'role' => 'Développeur Web'
         ],
         'tags' => ['php', 'sites web', 'dynamique'],
-        'published' => true,
+        'published' => false,
         'comments' => [
             [
                 'user' => 'Julien',
@@ -188,5 +189,6 @@ $posts = [
                 'message' => 'Merci pour ces conseils pratiques'
             ]
         ]
-    }
+    ]
 ];
+?>
