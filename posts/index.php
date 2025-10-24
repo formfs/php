@@ -11,6 +11,6 @@ $isPublishedArrayPosts = filterPublished($posts, true);
 $totalPosts = count($posts);
 $totalPostsPublished = count($isPublishedArrayPosts);
 
-require 'post.view.php';
+require '../views/post.view.php';
 
 ?>

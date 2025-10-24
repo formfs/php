@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Posts View</title>
-    <link rel="stylesheet" href="../assets/css/style.css">
-</head>
-
-<body>
-    <main>
+<?php require 'header.php'; ?>
         <section>
             <p><?= $totalPostsPublished ?> sur <?= $totalPosts ?> publiés.</p>
             <?php foreach ($isPublishedArrayPosts as $post): ?>
@@ -26,7 +15,4 @@
                 </article>
             <?php endforeach ?>
         </section>
-    </main>
-</body>
-
-</html>
+<?php require 'footer.php'; ?>
